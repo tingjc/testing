@@ -1,0 +1,49 @@
+html {
+    font-size: 125%;
+}
+
+p {
+    font-size: 2.4rem;
+}
+
+/* IMAGE CONTAINER */
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/* BACKGROUND DECOR */
+.background-decor {
+    height: 500px;
+    background-image: url(https://placebear.com/200/200);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media(max-width: 900px) {
+    p {
+        color: red;
+    }
+
+    h1 {
+        color: pink;
+        background-color:aquamarine;
+    }
+
+
+}
+
+@media(max-width: 720px) {
+    p {
+        background-color: rebeccapurple;
+    }
+}
+
+/* @media(max-width: 500px) {
+    .image-container {
+        flex-direction: column;
+    }
+} */
